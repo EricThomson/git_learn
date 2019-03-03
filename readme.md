@@ -11,7 +11,7 @@ b. From the terminal, configure your username and email:
     git config --global user.name <your user name>
     git config --global user.email <your email address>
 
-### Sign up for Github account
+### Sign up your Github account
 Sign up at https://github.com. For now, I recommend registering using the email you used in your Git configuration above, just to make everything simpler and easy to remember.
 
 # Turn your project into a repository
