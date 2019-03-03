@@ -2,8 +2,8 @@
 
 Git/Github tutorials can make it seem like rocket surgery. It isn't. It is very easy to set up quickly. Below I describe how. It is a kind of minimal kernel to get your repository set up locally and at github. The following assumes you have some project in a directory you want to share as a repository on github.
 
-# Get things set up with Git and GitHub
-#### Set up Git locally
+# Set up your Git/Github accounts
+### Set up Git on your local machine
 a. Download and install Git (http://git-scm.com/downloads) and set it up so you can execute git commands from the terminal (Gitbash on Windows). This guide seems pretty good: https://www.atlassian.com/git/tutorials/install-git
 
 b. From the terminal, configure your username and email:
@@ -11,13 +11,13 @@ b. From the terminal, configure your username and email:
     git config --global user.name <your user name>
     git config --global user.email <your email address>
 
-#### Sign up for Github account (https://github.com)
-I would suggest registering using the email you used in your Git configuration above.
+### Sign up for Github account
+Sign up at https://github.com. For now, I recommend registering using the email you used in your Git configuration above, just to make everything simpler and easy to remember.
 
 # Turn your project into a repository
 First, initialize your repository:
 1. In your project folder, make a `.gitignore` file that has the names of things you don't want to be version controlled (e.g., docx files, executables, pycache folders, and anything else you want hidden). You can include the wildcard character (\*).
-2. cd to your project folder, and enter `git init`.  You now have a local github repository. You pretty much are done.
+2. cd to your project folder, and enter `git init`.  You now have a local github repository! You pretty much are done, frankly. You can start to enter commands.
 3. `git status` to see what's up.
 4. `git add .` to add everything to staging area.
 5. `git commit -m "my first commit!"` to commit to repository
@@ -39,7 +39,10 @@ Now, whenever you have finished working on your local machine and are ready for 
 # Use it for a while
 There, you've done it. Go check out your repository at github. Share it. Write that code! Frankly, the above is 99% of what I do with my little one-person projects. When it comes to working with larger projects, then things will get a little more complicated: you will need to learn about things like cloning repositories, forks, branches, and pull requests. But for now, I would just focus on the above until you need to branch out.
 
-# Good beginner resources
+# Good resources
+Once you have messed around for a bit with the above, or need to expand into pull requests and such, the following are great resources to get started:
 - https://try.github.io/levels/1/challenges/1
 - https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
-- https://rogerdudler.github.io/git-guide/
+- https://rogerdudler.github.io/git-guide/    
+
+Then there is the online book put out by Git, which is great if you want the authoritative source with more details than the above links: https://git-scm.com/book/en/v2.    
