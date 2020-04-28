@@ -43,8 +43,8 @@ Note if you need to clone a repository, just go to it at github, click on the gr
 
 # Good resources
 Once you have messed around for a bit with the above, or need to expand into pull requests and such, the following are great resources to get started:
-- https://try.github.io/levels/1/challenges/1
 - https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 - https://rogerdudler.github.io/git-guide/    
+- https://realpython.com/python-git-github-intro/
 
 Then there is the online book put out by Git, which is great if you want the authoritative source with more details than the above links: https://git-scm.com/book/en/v2.    
