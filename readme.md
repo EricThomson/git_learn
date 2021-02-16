@@ -31,7 +31,7 @@ Now work on your project locally. When you have something cool, then commit it w
     `git remote add origin https://github.com/yourname/foo.git`
 3. Push your local repository to github:
 
-     `git push origin master`    
+     `git push origin main`    
 It will ask you for your remote username and pw.
 
 Now, whenever you have finished working on your local machine and are ready for your results to show up at github, just enter that same command from step 3 and your work will be pushed to github!
