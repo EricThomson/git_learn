@@ -42,7 +42,7 @@ There, you've done it. Go check out your repository at github. Share it. Write t
 Note if you need to clone a repository, just go to it at github, click on the green 'clone or download' icon, copy the url, and in a directory you have set up for the repo, type in `git clone <url>` where the url is the one you just copied. Now you have a local version of the repo.
 
 # Good resources
-Once you have messed around for a bit with the above, or need to expand into pull requests and such, the following are great resources to get started:    
+Once you have messed around for a bit with the above, or need to expand into [pull requests](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) and such, the following are great resources to get started:    
 
 - https://rogerdudler.github.io/git-guide/    
 - https://realpython.com/python-git-github-intro/
