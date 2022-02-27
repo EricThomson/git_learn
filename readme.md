@@ -24,6 +24,18 @@ First, initialize your repository:
 
 Now work on your project locally. When you have something cool, then commit it with the `add` and `commit` commands from lines 4 and 5.  You are using git. Use `git status` to see what's going on in your repository. That's pretty much all I ever do locally. Use informative, short commit statements. I would recommend making a `readme.md` file and putting it in your project folder, as it will show up automatically nicely formatted at Github when you push (Atom is a decent editor that shows Markdown when you enter `ctrl-shift-m`).
 
+If you want to just add one or a few files to the staging area, just put their names instead of the period:
+
+    git add file1 file2 file3
+
+This can be useful if you have one file that you have worked on a lot, and another that is half done and not ready to stage yet. Also, if you want to stage a bunch of files that are thematically related and commit them together, with logically individuated comments, then it is useful to do this.
+
+Note if you make a mistake and want to *remove* a file from the staging area (say `file3`), then:
+
+    git reset HEAD -- file3
+
+will pull it from the staging area back into the working directory.
+
 # Set up a remote repository and push your project to github
 1. At github, point and click to create repository with project name that you want (e.g., foo). The url of the repository will be provided to you (e.g., `https://github.com/yourname/foo.git`).
 2. Connect your local repository to the remote one using that url you just got. At your terminal:
@@ -37,9 +49,9 @@ It will ask you for your remote username and pw.
 Now, whenever you have finished working on your local machine and are ready for your results to show up at github, just enter that same command from step 3 and your work will be pushed to github!
 
 # Use it for a while
-There, you've done it. Go check out your repository at github. Share it. Write that code! Frankly, the above is 99% of what I do with my little one-person projects. When it comes to working with larger projects, then things will get a little more complicated: you will need to learn about things like forks, branches, and pull requests. But for now, I would just focus on the above until you need to branch out. 
+There, you've done it. Go check out your repository at github. Share it. Write that code! Frankly, the above is 99% of what I do with my little one-person projects. When it comes to working with larger projects, then things will get a little more complicated: you will need to learn about things like forks, branches, and pull requests. But for now, I would just focus on the above until you need to branch out.
 
-Note if you need to clone a repository, just go to it at github, click on the green 'clone or download' icon, copy the url, and in a directory you have set up for the repo, type in `git clone <url>` where the url is the one you just copied. Now you have a local version of the repo.
+Note if you need to clone a repository, just go to it at github, click on the green 'clone or download' icon, copy the url, and in a directory you have set up to contain the repo's folder, and type in `git clone <url>` where the url is the one you just copied. Now you have a local version of the repo.
 
 # Good resources
 Once you have messed around for a bit with the above, or need to expand into [pull requests](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) and such, the following are great resources to get started:    
