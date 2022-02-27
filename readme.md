@@ -37,7 +37,7 @@ It will ask you for your remote username and pw.
 Now, whenever you have finished working on your local machine and are ready for your results to show up at github, just enter that same command from step 3 and your work will be pushed to github!
 
 # Use it for a while
-There, you've done it. Go check out your repository at github. Share it. Write that code! Frankly, the above is 99% of what I do with my little one-person projects. When it comes to working with larger projects, then things will get a little more complicated: you will need to learn about things like forks, branches, and [pull requests](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/). But for now, I would just focus on the above until you need to branch out. 
+There, you've done it. Go check out your repository at github. Share it. Write that code! Frankly, the above is 99% of what I do with my little one-person projects. When it comes to working with larger projects, then things will get a little more complicated: you will need to learn about things like forks, branches, and pull requests. But for now, I would just focus on the above until you need to branch out. 
 
 Note if you need to clone a repository, just go to it at github, click on the green 'clone or download' icon, copy the url, and in a directory you have set up for the repo, type in `git clone <url>` where the url is the one you just copied. Now you have a local version of the repo.
 
