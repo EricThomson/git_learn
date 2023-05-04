@@ -22,7 +22,7 @@ First, initialize your repository:
 4. `git add .` to add everything to staging area.
 5. `git commit -m "my first commit!"` to commit to repository
 
-Now work on your project locally. When you have something cool, then commit it with the `add` and `commit` commands from lines 4 and 5.  You are using git. Use `git status` to see what's going on in your repository. That's pretty much all I ever do locally. Use informative, short commit statements. I would recommend making a `readme.md` file and putting it in your project folder, as it will show up automatically nicely formatted at Github when you push (Atom is a decent editor that shows Markdown when you enter `ctrl-shift-m`).
+Now work on your project locally. When you have something cool, then commit it with the `add` and `commit` commands from lines 4 and 5.  You are using git. Use `git status` to see what's going on in your repository. That's pretty much all I ever do locally. Use informative, short commit statements. I would recommend making a `readme.md` file and putting it in your project folder, as it will show up automatically nicely formatted at Github when you push (VS Code is a decent editor that lets you preview Markdown).
 
 If you want to just add one or a few files to the staging area, just put their names instead of the period:
 
