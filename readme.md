@@ -3,7 +3,7 @@
 Git/Github tutorials can make it seem like rocket surgery. It isn't. It is very easy to set up quickly. Below I describe how. It is a kind of minimal kernel to get your repository set up locally and at github. The following assumes you have some project in a directory you want to share as a repository on github.
 
 # Set up your Git/Github accounts
-### Set up Git on your local machine
+### Set up Git on your local machine :rocket:
 a. Download and install Git (http://git-scm.com/downloads) and set it up so you can execute git commands from the terminal (Gitbash on Windows). This guide seems pretty good: https://www.atlassian.com/git/tutorials/install-git
 
 b. From the terminal, configure your username and email:
