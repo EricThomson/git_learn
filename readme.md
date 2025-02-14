@@ -1,6 +1,6 @@
 # Git and github
 
-Git/Github tutorials can make it seem like rocket surgery. It isn't. It is very easy to set up quickly. Below I describe how. It is a kind of minimal kernel to get your repository set up locally and at github. The following assumes you have some project in a directory you want to share as a repository on github.
+Git/Github tutorials can make it seem like rocket surgery. It doesn't have to be: it's much easier to get started if you focus on the three or four commands you typically use when working on a personal project. Below I describe how to do this. It is a kind of minimal kernel to get your repository set up locally and at github. The following assumes you have some project in a directory you want to share publicly on github.
 
 # Set up your Git/Github accounts
 ### Set up Git on your local machine :rocket:
