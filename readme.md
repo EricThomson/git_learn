@@ -16,7 +16,7 @@ Sign up at https://github.com. For now, I recommend registering using the email 
 
 # Turn your project into a repository
 First, initialize your repository:
-1. In your project folder, make a `.gitignore` file that has the names of things you don't want to be version controlled (e.g., docx files, executables, pycache folders, and anything else you want hidden). You can include the wildcard character (\*).
+1. In your project folder, make a `.gitignore` file that has the names of things you don't want to be version controlled (e.g., docx files, executables, pycache folders, and anything else you want hidden). You can include the wildcard character (\*). There is a [standard Python `.gitignore` file at github](https://github.com/github/gitignore/blob/main/Python.gitignore) that is a good starting point.
 2. cd to your project folder, and enter `git init`.  You now have a local github repository! You pretty much are done, frankly. You can start to enter commands.
 3. `git status` to see what's up.
 4. `git add .` to add everything to staging area.
